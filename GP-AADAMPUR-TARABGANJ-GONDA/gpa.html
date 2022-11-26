@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.P.A.Gonda.</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .body_outer {
+            min-height: 700px;
+            width: 100%;
+            /* background-color: aqua; */
+        }
+
+        /* top_outer code start */
+
+        .top_outer {
+            min-height: 50px;
+            width: 100%;
+            background-color: #f46c22;
+        }
+
+        .top_a {
+            height: 50px;
+            float: left;
+
+            color: white;
+            line-height: 50px;
+
+        }
+
+        .a1 {
+            height: 50px;
+            width: 33.33333%;
+
+            float: left;
+            text-align: center;
+            font-size: 18px;
+            line-height: 50px;
+            color: white;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+
+        a:hover {
+            text-decoration: overline;
+        }
+
+            /* top_outer code end */
+
+
+            /* logo_outer code start */
+
+
+        .logo_outer {
+            min-height: 100px;
+            width: 100%;
+            background-color: white;
+            margin: 10px 0px;
+            box-sizing: border-box;
+            /* position: sticky;
+            top: 0px; */
+        }
+
+        .space {
+
+            width: 5%;
+            height: 100px;
+            /* background-color: red; */
+        }
+
+        .pic {
+            background: url(img/logo.png);
+            background-size: 100% 100%;
+            width: 10%;
+            height: 100px;
+
+        }
+
+        .name {
+
+            background-size: 100% 100%;
+            width: 50%;
+            height: 100px;
+        }
+
+        .bu {
+            background-color: #f46c22;
+            border: none;
+            padding: 10px;
+            margin: 30px 10px;
+            border-radius: 10px;
+            color: white;
+            font-size: 18px;
+
+        }
+
+        .bu:hover {
+            color: black;
+            transform: scale(1.1);
+            transition: all ease 1s;
+        }
+
+        .space1 {
+
+            width: 5%;
+            height: 50px;
+            background-color: #3d3d3d;
+            float: left;
+        }
+
+
+        /* logo_outer code end */
+
+        /* menu_outer code start */
+
+        .menu_outer {
+            height: 50px;
+            width: 100%;
+            background-color: #3d3d3d;
+            /* padding-left: 50px; */
+            box-sizing: border-box;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            height: 50px;
+            width: 100%;
+            /* background-color: blue; */
+            /* text-align: center; */
+            padding: 0px auto;
+            padding-left: 30px;
+            box-sizing: border-box;
+
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            height: 50px !important;
+            line-height: 50px;
+            float: left;
+            /* background-color: aqua; */
+
+            width: 18%;
+            padding: 0px 20px;
+            box-sizing: border-box;
+        }
+
+        nav ul li:hover {
+            background-color: #f46c22;
+        }
+
+        nav ul li>ul {
+
+            width: 230px;
+            min-height: 200px;
+            transform: translate(-30px, -1px);
+            display: none;
+            padding-top: 0px;
+
+
+
+        }
+
+        nav ul li:hover>ul {
+            display: block;
+
+        }
+
+        nav ul li ul li {
+            background-color: rgba(0, 0, 0, .7);
+            width: 300px;
+            transform: translate(9px, -50px);
+            padding: 0px;
+            padding-left: 10px;
+
+        }
+
+        nav ul li ul li:hover {
+            background-color: rgba(244, 108, 34, .8);
+        }
+
+        /* menu_outer code end */
+
+        /* slider_outer code start */
+
+        .slider_outer {
+            height: 530px;
+            width: 100%;
+            background-color: blue;
+            animation-name: slider_image;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes slider_image {
+            0% {
+                background: url(img/slid1.jpeg);
+                background-size: cover;
+            }
+
+            50% {
+                background: url(img/slid2.jpeg);
+                background-size: cover;
+            }
+
+            100% {
+                background: url(img/slid3.jpeg);
+                background-size: cover;
+            }
+        }
+
+        .transparent_box {
+            height: 0px;
+            width: 300px;
+            border-bottom: 530px solid rgba(244, 108, 34, .5);
+            border-left: 0px solid transparent;
+            border-right: 135px solid transparent;
+            text-align: center;
+            font-size: 50px;
+
+            color: white;
+
+
+        }
+
+        /* slider_outer code end */
+
+
+        /* notice_outer code start */
+
+        .notice_outer {
+            min-height: 500px;
+            width: 100%;
+            /* background-color: gray; */
+            padding-top: 50px;
+            padding-bottom: 50px;
+            box-sizing: border-box;
+
+
+        }
+
+        .notice_board_box {
+            height: 500px;
+            width: 90%;
+            background-color: #f46c22;
+            margin: 0px auto;
+            border-radius: 10px;
+        }
+
+        .notice_box_1 {
+            height: 440px;
+            width: 30%;
+            /* background-color: #f46c22; */
+            float: left;
+            margin: 30px 22px;
+
+        }
+
+        .notice_box_1_top {
+            height: 50px;
+            width: 100%;
+            background-color: #3d3d3d;
+            margin-bottom: 10px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .notice_box_1_bottom {
+            height: 370px;
+            width: 100%;
+            background-color: beige;
+            margin-bottom: 10px;
+            line-height: 30px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .marquee_a {
+            color: #3d3d3d;
+        }
+
+        .marquee_a:hover {
+            color: black;
+        }
+
+
+        /* notice_outer code end */
+
+
+        /* mentors_outer code start */
+
+        .mentors_outer {
+            min-height: 500px;
+            width: 100%;
+            /* background-color: yellow; */
+            padding: 50px;
+            padding-left: 70px;
+            padding-right: 70px;
+            box-sizing: border-box;
+        }
+
+        .heading_outer {
+            height: 55px;
+            width: 200px;
+            /* background-color: blueviolet; */
+        }
+
+        .heading_text {
+            color: red;
+            height: 50px;
+            width: 250px;
+            /* background-color: white; */
+            font-size: 35px;
+            text-align: center;
+
+
+        }
+
+        /* Animation of border code start */
+
+
+        .headIng_border {
+            height: 3px;
+            width: 0px;
+            background-color: #f46c22;
+            animation-name: mentorsheading;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+        }
+
+        @keyframes mentorsheading {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 250px;
+            }
+        }
+
+         /* Animation of border code end */
+
+        .mentors_box_outer {
+            min-height: 430px;
+            width: 100%;
+            /* background-color: blue; */
+            margin-top: 20px;
+            
+        }
+
+       
+
+        .mentors_photo_box_outer {
+            height: 430px;
+            width: 22%;
+            border: 2px #f46c22 solid;
+            border-radius: 10px;
+            box-sizing: border-box;
+            float: left;
+            margin: 0px 20px;
+            /* animation-name: photo_div_slide; */
+            
+        }
+
+        
+
+        .photo_text_outer {
+            height: 370px;
+            width: 90%;
+            /* background-color: aqua; */
+            margin: 30px auto;
+
+
+        }
+
+        .photo_box {
+            height: 250px;
+            width: 100%;
+            /* background-color: bisque; */
+            border: 2px solid #f46c22;
+            box-sizing: border-box;
+            border-radius: 10px;
+            /* background-image: url(img/ashish.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat; */
+        }
+
+        .photo_name_box {
+            height: 110px;
+            width: 100%;
+            /* background-color: #3d3d3d; */
+            margin-top: 10px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 15px;
+            padding: 10px ;
+            box-sizing: border-box;
+        }
+
+        /* mentors_outer code end */
+
+
+        /* About_outer code start */
+
+
+        .about_outer
+        {
+            min-height: 500px;
+            width: 100%;
+            /* background-color: yellow; */
+            padding: 50px 0px;
+            
+            box-sizing: border-box;
+            /* background-color: #3d3d3d; */
+        }
+        .about_box_outer
+        {
+            height: 400px;
+            width: 100%;
+            background-color: #f46c22;
+            padding-top: 50px;
+            box-sizing: border-box;
+
+        }
+
+        .about_img_text_outer
+        {
+            height: 300px;
+            width: 85%;
+            margin: 0px auto;
+            /* background-color: blue; */
+        }
+
+        .about_photo
+        {
+            height: 300px;
+            width: 35%;
+            /* background-color: aqua; */
+            float: left;
+            background-image: url(img/gpg_main_gate.jpeg);
+            background-size: cover;
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        .about_text
+        {
+            height: 300px;
+            width: 65%;
+            background-color:#3d3d3d;
+            float: left;
+            text-align: justify;
+            font-size: 22px;
+            padding: 50px 20px;
+            box-sizing: border-box;
+            border-radius: 0px 10px 10px 0px;
+            color: white;
+            
+            
+        }
+
+
+        /* About_outer code end */
+        
+        /* facilities_outer code start */
+
+
+        .facilities_outer
+        {
+            height: 500px;
+            width: 100%;
+            /* background-color: #3d3d3d; */
+        }
+
+        .facilities_box_outer
+        {
+            height: 350px;
+            width: 90%;
+            /* background-color: blue; */
+            margin: 50px auto;
+        }
+
+        .facilities_left_box
+        {
+            height: 330px;
+            width: 31.33%;
+            /* background-color: pink; */
+            float: left;
+            margin: 10px 1%;
+
+
+        }
+
+        .facilities_top_box
+        {
+            height: 135px;
+            width: 96%;
+            /* background-color: red; */
+            margin: 20px 2%;
+            border: 2px solid #e8eaed;
+            border-radius: 10px;
+            box-sizing: border-box;
+            
+        }
+
+        .facilities_icon_box
+        {
+            height: 135px;
+            width: 35%;
+            /* background-color: aqua; */
+            float: left;
+            text-align: center;
+            padding-top: 20px;
+            box-sizing: border-box;
+            font-size: 90px;
+            color:red;
+        }
+
+        .facilities_text_box
+        {
+            height: 135px;
+            width: 65%;
+            /* background-color: bisque; */
+            float: left;
+            text-align: center;
+            line-height: 30px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+
+
+
+        /* facilities_outer code end */
+
+
+        /* principal_outer code start */
+        
+
+
+        .principal_photo
+        {
+            height: 240px;
+            width: 15%;
+            /* background-color: aqua; */
+            float: left;
+            background-image: url(img/principal.jpg);
+            background-size: cover;
+            /* border-radius: 10px 0px 0px 10px; */
+            margin: 20px 6%;
+            border:10px solid white;
+        }
+
+
+
+        /* principal_outer code end */
+
+
+        /* gallery_outer code start */
+
+
+        .gallery_outer
+        {
+            height: 500px;
+            width: 100%;
+            /* background-color: #3d3d3d; */
+        }
+
+        .gallery_box_outer
+        {
+            height: 300px;
+            width: 90%;
+            /* background-color: red; */
+            margin: 50px 5%;
+        }
+
+        .gallery_photo_box
+        {
+            height: 300px;
+            width: 23%;
+            /* background-color: aqua; */
+            margin-left: 2%;
+            float: left;
+            transition: all ease 1s;
+        }
+
+        .gallery_photo_box:hover
+        {
+            transform: scale(1.1);
+            transition: all ease 1s;
+        }
+
+        
+
+
+        /* gallery_outer code end */
+
+
+        /* <!-- footer_outer code start --> */
+
+
+        .footer_outer
+        {
+            height: 200px;
+            width: 100%;
+            background-color: #f46c22;
+        }
+
+        .footer_space_box
+        {
+            height: 200px;
+            width: 15%;
+            background-color: #f46c22;
+            float: left;
+        }
+        
+        .footer_box
+        {
+            height: 200px;
+            width: 21.5%;
+            /* background-color: blue; */
+            float: left;
+            text-align: left;
+            line-height: 30px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            margin-left: 1%;
+        }
+
+
+        /* <!-- footer_outer code end --> */
+
+
+        .develop
+        {
+            height: 50PX;
+            width: 100%;
+            background-color: #3d3d3d;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body_outer">
+
+        <!-- top_outer code start-->
+
+        <div class="top_outer">
+            <div class="top_a" style="height:50px;width:50%;">
+                <div class="a1"><a href="#">
+                        <ion-icon name="call-outline"></ion-icon> +91 9415184181
+                    </a></div>
+                <div class="a1"><a href="#">
+                        <ion-icon name="mail-outline" style="padding-top: 10px;"></ion-icon> gpaadampur@rediffmail.com
+                    </a></div>
+                <div class="a1"><a href="#">
+                        <ion-icon name="person-circle-outline"></ion-icon> Admin Login
+                    </a></div>
+            </div>
+            <div class="top_a" style="width: 20%;"></div>
+            <div class="top_a" style="width: 30%;">
+                <div class="top_a">
+                    Follow Us :
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- top_outer code end -->
+        <!-- logo_outer code start -->
+
+        <div class="logo_outer">
+            <div class="space" style="float: left;"></div>
+            <div class="pic" style="float: left;"></div>
+            <div class="name" style="float: left;">
+                <div class="n"
+                    style="height: 50px; font-size: 30px; padding:15px 15px;box-sizing: border-box;font-weight: bold;">
+                    Government Polytechnic, Aadampur, Tarabganj, Gonda</div>
+                <div class="n" style="height: 50px;padding:10px 25px;box-sizing: border-box;">Affiliated to : Uttar
+                    Pradesh Board of Technical Education</div>
+            </div>
+            <div class="space" style="float: left;"></div>
+            <div class="logo_button" style="float: left;">
+                <button class="bu">
+                    <ion-icon name="people"></ion-icon> About Us
+                </button>
+                <button class="bu">
+                    <ion-icon name="book"></ion-icon> Branches Offered
+                </button>
+            </div>
+        </div>
+
+        <!-- logo_outer code end -->
+
+        <!-- menu_outer code start -->
+
+        <div class="menu_outer">
+            <nav>
+                <ul>
+                    <a href="#">
+                        <li style="width: 6%;">HOME</li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 6%;">ABOUT </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 10%; ">ACADEMICS
+                            <ul>
+                                <a href="#">
+                                    <li>BRANCHES OFFERED</li>
+                                </a>
+                                <a href="#">
+                                    <li>FACULTY</li>
+                                </a>
+                                <a href="#">
+                                    <li>ACADEMIC CALENDAR</li>
+                                </a>
+                                <a href="#">
+                                    <li>TIME TABLE</li>
+                                </a>
+                                <a href="#">
+                                    <li>LIBRARY</li>
+                                </a>
+                                <a href="#">
+                                    <li>HOLIDAY</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 10%;">ADMISSION
+                            <ul>
+                                <a href="#">
+                                    <li>ADMISSION POLICY</li>
+                                </a>
+                                <a href="#">
+                                    <li>ADMISSION FEE</li>
+                                </a>
+                                <a href="#">
+                                    <li>ADMISSION / RESERVATION POLICY</li>
+                                </a>
+                                <a href="#">
+                                    <li>DOCUMENT RETENTION POLICY</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 14%;">STUDENT SUPPORT
+                            <ul>
+                                <a href="#">
+                                    <li>ANTI RAGGING</li>
+                                </a>
+                                <a href="#">
+                                    <li>GRIEVANCE REDRESSAL</li>
+                                </a>
+                                <a href="#">
+                                    <li>SYLLABUS</li>
+                                </a>
+                                <a href="#">
+                                    <li>RESULT</li>
+                                </a>
+                                <a href="#">
+                                    <li>ALUMNI</li>
+                                </a>
+                                <a href="#">
+                                    <li>ALUMNI REGISTRATION</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 21%;">EXTRA CURRICULAR ACTIVITIES
+                            <ul>
+                                <a href="#">
+                                    <li>SPORTS</li>
+                                </a>
+                                <a href="#">
+                                    <li>SEMINARS</li>
+                                </a>
+                                <a href="#">
+                                    <li>ANNUAL FUNCTION</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 13%;">AICTE APPROVAL
+                            <ul>
+                                <a href="#">
+                                    <li>AICTE APPROVAL</li>
+                                </a>
+                                <a href="#">
+                                    <li>WOA</li>
+                                </a>
+                                <a href="#">
+                                    <li>MOU</li>
+                                </a>
+                                <a href="#">
+                                    <li>AICTE FEEDBACK</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 7%;">GALLERY</li>
+                    </a>
+                    <a href="#">
+                        <li style="width: 6.8%; border:none;">CONTACT</li>
+                    </a>
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <!-- menu_outer code end -->
+
+        <!-- slider_outer code start -->
+
+        <div class="slider_outer">
+            <div class="transparent_box"></div>
+        </div>
+
+        <!-- silder_outer code end -->
+
+
+
+        <!-- notice_outer code start -->
+
+        <div class="notice_outer">
+            <div class="notice_board_box">
+                <div class="notice_box_1">
+                    <div class="notice_box_1_top">General Notice</div>
+                    <div class="notice_box_1_bottom">
+                        <marquee behavior="altrenate" direction="up" scrollamount="7" height="370px"
+                            onmouseover="stop()" onmouseleave="start()">
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                        </marquee>
+                    </div>
+                </div>
+                <div class="notice_box_1">
+                    <div class="notice_box_1_top">Department Notice</div>
+                    <div class="notice_box_1_bottom">
+                        <marquee behavior="altrenate" direction="up" scrollamount="7" height="370px"
+                            onmouseover="stop()" onmouseleave="start()">
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                        </marquee>
+                    </div>
+                </div>
+                <div class="notice_box_1">
+                    <div class="notice_box_1_top">Examination Notice</div>
+                    <div class="notice_box_1_bottom">
+                        <marquee behavior="altrenate" direction="up" scrollamount="7" height="370px"
+                            onmouseover="stop()" onmouseleave="start()">
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                            <font>
+                                <ion-icon name="snow-outline"></ion-icon><a href="#" class="marquee_a"
+                                    style="text-decoration: none;">Notice will be uploaded soon! (general)</a>
+                            </font><br>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- notice_outer code end -->
+
+
+        <!-- Our Mentors_outer code strat -->
+
+        <div class="mentors_outer">
+            <div class="heading_outer ">
+                <div class="heading_text"> <b>Our</b> Mentors </div>
+                <div class="headIng_border"></div>
+            </div>
+
+            <div class="mentors_box_outer">
+                <div class="mentors_photo_box_outer">
+                    <div class="photo_text_outer">
+                        <div class="photo_box">
+                            <img src="img/ashish.jpg" height="100%" width="100%" style="border-radius: 10px;" alt="">
+                        </div>
+                        <div class="photo_name_box">
+                            <h2 style="padding-bottom: 10px;">Shri Ashish Patal </h2>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mentors_photo_box_outer">
+                    <div class="photo_text_outer">
+                        <div class="photo_box">
+                            <img src="img/yogi.jpg" height="100%" width="100%" style="border-radius: 10px;" alt="">
+                        </div>
+                        <div class="photo_name_box">
+                            <h2 style="padding-bottom: 10px;">Shri Yogi Adityanath </h2>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="mentors_photo_box_outer">
+                    <div class="photo_text_outer">
+                        <div class="photo_box">
+                            <img src="img/subhash.jpg" height="100%" width="100%" style="border-radius: 10px;" alt="">
+                        </div>
+                        <div class="photo_name_box">
+                            <h2 style="padding-bottom: 0px;">Shri Subhash Chand Sharma (I.A.S.) </h2>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="mentors_photo_box_outer">
+                    <div class="photo_text_outer">
+                        <div class="photo_box">
+                            <img src="img/sunil.jpg" height="100%" width="100%" style="border-radius: 10px;" alt="">
+                        </div>
+                        <div class="photo_name_box">
+                            <h2 style="padding-bottom: 0px;">Shri Sunil Kumar Chaudhary (I.A.S.) </h2>
+                            <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            
+
+            <!-- Our Mentors_outer code end -->
+
+        </div>
+
+        <!-- about_outer code start -->
+
+
+        <div class="about_outer">
+            <div class="heading_outer " style="margin-left: 70px; margin-bottom: 20px;">
+                <div class="heading_text" style="width: 250px; "> <b>About</b> College </div>
+                <div class="headIng_border"></div>
+            </div>
+            <div class="about_box_outer">
+                <div class="about_img_text_outer">
+                    <div class="about_photo"></div>
+                    <div class="about_text">
+                        <p>
+                            Welcome to <b>Government Polytechnic Aadampur, Tarabganj, Gonda</b>. This Government Polytechnic is established in 2013 with the assistance of central government with the aim of developing rural area and inculcating technical skill in the youth to accept global challenges. Three-year Diploma course in Mechanical Engineering (Production) started in year 2013. Mechanical Engineering (Automobile) and Computer Science & Engineering started in year 2015. At present three courses are running in this institute. This institute is situated at Village-Aadampur, Tahsil-Tarabganj, District-Gonda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about_outer code end -->
+
+
+
+        <!-- facilities_outer code start -->
+
+
+        <div class="facilities_outer">
+            <div class="heading_outer " style="margin-left: 70px; margin-bottom: 20px;">
+                <div class="heading_text" style="width: 250px; "> <b>Our</b> Facilities </div>
+                <div class="headIng_border"></div>
+            </div>
+
+            <div class="facilities_box_outer">
+                <div class="facilities_left_box">
+                    <div class="facilities_top_box">
+                        <div class="facilities_icon_box"><ion-icon name="book"></ion-icon></div>
+                        <div class="facilities_text_box">
+                            <h2>Automated Library</h2>
+                            <p>We have well equiped fully automated library with 8000 books.</p>
+                        </div>
+                    </div>
+                    <div class="facilities_top_box">
+                        <div class="facilities_icon_box"><ion-icon name="flask"></ion-icon></div>
+                        <div class="facilities_text_box">
+                            <h2>Laboratory Facility</h2>
+                            <p>Students get practical exposure while working in well equipped labs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="facilities_left_box">
+                    <div class="facilities_top_box">
+                        <div class="facilities_icon_box"><ion-icon name="people"></ion-icon></div>
+                        <div class="facilities_text_box">
+                            <h2>Experienced Faculty</h2>
+                            <p>The students learn under the guidance of experienced faculties.</p>
+                        </div>
+                    </div>
+                    <div class="facilities_top_box">
+                        <div class="facilities_icon_box"><ion-icon name="partly-sunny"></ion-icon></div>
+                        <div class="facilities_text_box">
+                            <h2>Neat & Clean</h2>
+                            <p>We have a lavish green eco-friendly clean campus and environment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="facilities_left_box">
+                    <img src="img/mukhya_bhavan.jpeg" height="100%" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- facilities_outer code end -->
+
+
+
+        <!-- principal_outer code start -->
+
+
+        <div class="about_outer">
+            <div class="heading_outer " style="margin-left: 70px; margin-bottom: 20px;">
+                <div class="heading_text" style="width: 300px;  "> <b>Principal's</b> Message </div>
+                <div class="headIng_border"></div>
+            </div>
+            <div class="about_box_outer">
+                <div class="about_img_text_outer">
+                    <div class="principal_photo"></div>
+                    <div class="about_text" style="border-radius: 10px; padding: 10px; width: 900px;">
+                        <p>
+                            The team at <b>Government Polytechnic, Aadampur</b> is committed to impart quality education that will build in our students the capacities for creativity, critical judgement, effective communication and in-depth knowledge. The innovation based education at Government Polytechnic, Aadampur aims on strengthening the overall personalities of our students.We are committed to ensure our participation in making “Atma Nirbhar Bharat”.
+                            <br><br>
+                            <b>Mahesh Kumar</b> <br>
+                            Principal of <br>
+                            Government Polytechnic, Aadampur, Tarabganj, Gonda. <br>
+                            Email : principalgpaadampur@gmail.com        <br>                </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- principal_outer code end -->
+
+
+        <!-- gallery_outer code start -->
+
+
+        <div class="gallery_outer">
+            <div class="heading_outer " style="margin-left: 70px; margin-bottom: 20px;">
+                <div class="heading_text" style="width: 250px;  "> <b>Our</b> Gallery </div>
+                <div class="headIng_border"></div>
+            </div>
+
+            <div class="gallery_box_outer">
+                <div class="gallery_photo_box">
+                    <img src="img/p1.jpeg" height="100%" width="100%" alt="">
+                </div>
+
+                <div class="gallery_photo_box">
+                    <img src="img/p2.jpeg" height="100%" width="100%" alt="">
+                </div>
+
+                <div class="gallery_photo_box">
+                    <img src="img/p3.jpeg" height="100%" width="100%" alt="">
+                </div>
+
+                <div class="gallery_photo_box">
+                    <img src="img/p4.jpeg" height="100%" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- gallery_outer code end -->
+
+
+        <!-- footer_outer code start -->
+
+
+        <div class="footer_outer">
+            <div class="footer_space_box"></div>
+            <div class="footer_box">
+                <h3 style="text-align: center;">Government Polytechnic Aadampur, Tarabganj, Gonda.</h3>
+                <a href="#"><ion-icon name="phone-portrait-outline"></ion-icon> +91 7897085378</a> <br>
+                <a href="#"><ion-icon name="mail-outline"></ion-icon> gpaadampur@rediffmail.com</a> <br>
+                <a href="#"><ion-icon name="location-outline"></ion-icon> Aadampur Belsar, Tarabganj, Gonda, Uttar Pradesh 271401</a> <br>
+
+            </div>
+            <div class="footer_box" style="text-align: center;">
+                <h3 style="padding-top: 10px; padding-bottom: 10px;">Useful Links</h3>
+                <a href="https://nptel.ac.in/">NPTEL</a><br>
+                <a href="https://www.mooc.org/">MOOCs</a><br>
+                <a href="https://ndl.iitkgp.ac.in/">JEECUP</a><br>
+                <a href="https://nad.gov.in/">NAD</a><br>
+
+            </div>
+            <div class="footer_box" style="text-align:center ;">
+                <h3 style="text-align: center;padding-top: 10px; padding-bottom: 10px;">Other Useful Links</h3>
+                <a href="https://urise.up.gov.in/">URISE</a><br>
+                <a href="https://bteup.ac.in/webapp/defaultnew.aspx">BTEUP</a><br>
+                <a href="https://swayam.gov.in/">JEECUP</a><br>
+                <a href="https://nad.gov.in/">swayam</a><br>
+            </div>
+            <div class="footer_space_box"></div>
+        </div>
+
+
+        <!-- footer_outer code end -->
+
+        <div class="develop">
+            <h5>© Copyright 2021 Designed & Developed By | <b>K. K. GAUTAM</b></h5>
+        </div>
+
+    </div>
+</body>
+
+</html>
