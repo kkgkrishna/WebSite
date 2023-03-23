@@ -8,7 +8,7 @@ This repository contain projects made by me while Techpile Apprenticeship progra
 
 ----
 
-- Show Website : Click [Here](https://techkanhaiya.github.io/WebPages/GP%20AADAMPUR%20TARABGANJ%20GONDA/gpa.html)
+- Show Website : Click [Here](https://kkgkrishna.github.io/WebPages/GP%20AADAMPUR%20TARABGANJ%20GONDA/gpa.html)
 
 - This is my College Website made by me, using html css.
 
@@ -20,7 +20,7 @@ This repository contain projects made by me while Techpile Apprenticeship progra
 
 ----
 
-- Show Website : Click [Here](https://techkanhaiya.github.io/WebPages/clinic-website/task1.htm)
+- Show Website : Click [Here](https://kkgkrishna.github.io/WebPages/clinic-website/task1.htm)
 
 - This is Dental Clinic Website made by me, using html css.
 
